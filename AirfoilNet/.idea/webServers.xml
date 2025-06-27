@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="567b3316-c479-485b-ae3c-8b8ee8487da5" name="fan">
+        <fileTransfer rootFolder="/home/ssd0/lfy" accessType="SFTP" host="10.70.179.192" port="3090" sshConfigId="27bc1c3b-23c5-4779-83ae-46880ed22adc" sshConfig="fzy@10.70.179.192:3090 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b9c63247-4302-4843-b1ec-3c97055fbd25" name="airfoil">
+        <fileTransfer rootFolder="/home/15t/fzy/code" accessType="SFTP" host="172.19.230.18" port="3166" sshConfigId="2a76f016-cdb8-496f-8e9b-d94c08359604" sshConfig="fzy@172.19.230.18:3166 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
